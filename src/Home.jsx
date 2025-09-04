@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div><a href="/pro3_quiz_app/quiz">Start the Quiz</a></div>
-  )
-}
+    <div>
+      <Link to="/quiz">Start the Quiz</Link>
+    </div>
+  );
+};
 
-export default Home
+export default Home;

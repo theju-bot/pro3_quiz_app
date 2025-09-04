@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     const getData = async () => {
       const response = await fetch(
-        '/pro3_quiz_app/science_tech_quiz_real_100.json'
+        `${import.meta.env.BASE_URL}science_tech_quiz_real_100.json`
       );
       const getData = await response.json();
       console.log(getData.questions);
