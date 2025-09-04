@@ -1,0 +1,1105 @@
+{
+  "quizTitle": "Science & Technology Quiz (Easy\u2013Medium)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the chemical formula for water?",
+      "options": [
+        "H2O",
+        "CO2",
+        "O2",
+        "NaCl"
+      ],
+      "answer": "H2O"
+    },
+    {
+      "id": 2,
+      "question": "Which planet is the largest in our Solar System?",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Jupiter",
+        "Neptune"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "id": 3,
+      "question": "What does CPU stand for?",
+      "options": [
+        "Central Processing Unit",
+        "Core Power Unit",
+        "Computer Primary Unit",
+        "Central Peripheral Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "id": 4,
+      "question": "What gas do plants absorb during photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "id": 5,
+      "question": "Which particle has a negative charge?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Alpha particle"
+      ],
+      "answer": "Electron"
+    },
+    {
+      "id": 6,
+      "question": "What is the speed of light in vacuum (approx.)?",
+      "options": [
+        "3\u00d710^8 m/s",
+        "3\u00d710^6 m/s",
+        "1\u00d710^8 m/s",
+        "1\u00d710^6 m/s"
+      ],
+      "answer": "3\u00d710^8 m/s"
+    },
+    {
+      "id": 7,
+      "question": "Which vitamin is produced when skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "answer": "Vitamin D"
+    },
+    {
+      "id": 8,
+      "question": "What is the closest planet to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": "Mercury"
+    },
+    {
+      "id": 9,
+      "question": "Which organ pumps blood throughout the human body?",
+      "options": [
+        "Lungs",
+        "Liver",
+        "Heart",
+        "Kidneys"
+      ],
+      "answer": "Heart"
+    },
+    {
+      "id": 10,
+      "question": "What does HTTP stand for?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "High Transfer Text Protocol",
+        "Hyperlink Transmission Process",
+        "Host Transfer Type Protocol"
+      ],
+      "answer": "HyperText Transfer Protocol"
+    },
+    {
+      "id": 11,
+      "question": "Which device is used to measure temperature?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Ammeter"
+      ],
+      "answer": "Thermometer"
+    },
+    {
+      "id": 12,
+      "question": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "answer": "Mitochondria"
+    },
+    {
+      "id": 13,
+      "question": "What is the chemical symbol for sodium?",
+      "options": [
+        "Na",
+        "So",
+        "Sn",
+        "Sd"
+      ],
+      "answer": "Na"
+    },
+    {
+      "id": 14,
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Argon"
+      ],
+      "answer": "Nitrogen"
+    },
+    {
+      "id": 15,
+      "question": "Who proposed the three laws of motion?",
+      "options": [
+        "Albert Einstein",
+        "Niels Bohr",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "answer": "Isaac Newton"
+    },
+    {
+      "id": 16,
+      "question": "Which blood cells help in clotting?",
+      "options": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Plasma"
+      ],
+      "answer": "Platelets"
+    },
+    {
+      "id": 17,
+      "question": "What is the unit of electrical resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": "Ohm"
+    },
+    {
+      "id": 18,
+      "question": "Which programming language is primarily used for web page structure?",
+      "options": [
+        "CSS",
+        "HTML",
+        "Python",
+        "SQL"
+      ],
+      "answer": "HTML"
+    },
+    {
+      "id": 19,
+      "question": "What is the boiling point of water at sea level?",
+      "options": [
+        "90\u00b0C",
+        "100\u00b0C",
+        "110\u00b0C",
+        "120\u00b0C"
+      ],
+      "answer": "100\u00b0C"
+    },
+    {
+      "id": 20,
+      "question": "Which scientist developed the theory of general relativity?",
+      "options": [
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Marie Curie",
+        "Max Planck"
+      ],
+      "answer": "Albert Einstein"
+    },
+    {
+      "id": 21,
+      "question": "Which organelle is responsible for photosynthesis?",
+      "options": [
+        "Mitochondria",
+        "Chloroplast",
+        "Ribosome",
+        "Lysosome"
+      ],
+      "answer": "Chloroplast"
+    },
+    {
+      "id": 22,
+      "question": "What is the basic unit of heredity?",
+      "options": [
+        "Chromosome",
+        "Gene",
+        "Protein",
+        "Enzyme"
+      ],
+      "answer": "Gene"
+    },
+    {
+      "id": 23,
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Mars"
+    },
+    {
+      "id": 24,
+      "question": "What does RAM stand for?",
+      "options": [
+        "Read Access Memory",
+        "Random Access Memory",
+        "Rapid Access Module",
+        "Run Access Memory"
+      ],
+      "answer": "Random Access Memory"
+    },
+    {
+      "id": 25,
+      "question": "Which element has the chemical symbol Fe?",
+      "options": [
+        "Fluorine",
+        "Iron",
+        "Fermium",
+        "Francium"
+      ],
+      "answer": "Iron"
+    },
+    {
+      "id": 26,
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Pascal",
+        "Newton",
+        "Joule",
+        "Watt"
+      ],
+      "answer": "Newton"
+    },
+    {
+      "id": 27,
+      "question": "Which part of the brain controls balance and coordination?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla",
+        "Hypothalamus"
+      ],
+      "answer": "Cerebellum"
+    },
+    {
+      "id": 28,
+      "question": "What is the main function of red blood cells?",
+      "options": [
+        "Fight infection",
+        "Carry oxygen",
+        "Clot blood",
+        "Produce hormones"
+      ],
+      "answer": "Carry oxygen"
+    },
+    {
+      "id": 29,
+      "question": "Which technology is used for contactless payments?",
+      "options": [
+        "Bluetooth",
+        "NFC",
+        "Infrared",
+        "Ethernet"
+      ],
+      "answer": "NFC"
+    },
+    {
+      "id": 30,
+      "question": "Which planet has the most extensive ring system?",
+      "options": [
+        "Jupiter",
+        "Uranus",
+        "Saturn",
+        "Neptune"
+      ],
+      "answer": "Saturn"
+    },
+    {
+      "id": 31,
+      "question": "Which scientist discovered penicillin?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Robert Koch",
+        "Edward Jenner"
+      ],
+      "answer": "Alexander Fleming"
+    },
+    {
+      "id": 32,
+      "question": "What does DNA stand for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dioxyribonuclear Acid",
+        "Deoxyribose Nucleic Acid",
+        "Dextrose Nucleic Acid"
+      ],
+      "answer": "Deoxyribonucleic Acid"
+    },
+    {
+      "id": 33,
+      "question": "Which device converts AC to DC?",
+      "options": [
+        "Transformer",
+        "Rectifier",
+        "Inverter",
+        "Capacitor"
+      ],
+      "answer": "Rectifier"
+    },
+    {
+      "id": 34,
+      "question": "What is the main gas found in the Sun?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Helium",
+        "Carbon"
+      ],
+      "answer": "Hydrogen"
+    },
+    {
+      "id": 35,
+      "question": "Which branch of science studies the classification of organisms?",
+      "options": [
+        "Ecology",
+        "Taxonomy",
+        "Genetics",
+        "Physiology"
+      ],
+      "answer": "Taxonomy"
+    },
+    {
+      "id": 36,
+      "question": "What is the unit of electric power?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Volt",
+        "Ohm"
+      ],
+      "answer": "Watt"
+    },
+    {
+      "id": 37,
+      "question": "Which component stores data permanently in a computer?",
+      "options": [
+        "RAM",
+        "Cache",
+        "SSD/HDD",
+        "GPU"
+      ],
+      "answer": "SSD/HDD"
+    },
+    {
+      "id": 38,
+      "question": "What phenomenon explains why a straw looks bent in water?",
+      "options": [
+        "Reflection",
+        "Diffraction",
+        "Refraction",
+        "Interference"
+      ],
+      "answer": "Refraction"
+    },
+    {
+      "id": 39,
+      "question": "What is the pH of pure water at 25\u00b0C?",
+      "options": [
+        "3",
+        "7",
+        "9",
+        "14"
+      ],
+      "answer": "7"
+    },
+    {
+      "id": 40,
+      "question": "Which planet has a day longer than its year?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Neptune"
+      ],
+      "answer": "Venus"
+    },
+    {
+      "id": 41,
+      "question": "Which polymer is commonly known as PVC?",
+      "options": [
+        "Polyvinyl chloride",
+        "Polystyrene",
+        "Polypropylene",
+        "Polycarbonate"
+      ],
+      "answer": "Polyvinyl chloride"
+    },
+    {
+      "id": 42,
+      "question": "Which instrument measures atmospheric pressure?",
+      "options": [
+        "Hygrometer",
+        "Barometer",
+        "Altimeter",
+        "Anemometer"
+      ],
+      "answer": "Barometer"
+    },
+    {
+      "id": 43,
+      "question": "In computing, what does GPU stand for?",
+      "options": [
+        "General Processing Unit",
+        "Graphics Processing Unit",
+        "Graphical Power Unit",
+        "Global Processing Unit"
+      ],
+      "answer": "Graphics Processing Unit"
+    },
+    {
+      "id": 44,
+      "question": "Which element is a noble gas?",
+      "options": [
+        "Nitrogen",
+        "Chlorine",
+        "Argon",
+        "Bromine"
+      ],
+      "answer": "Argon"
+    },
+    {
+      "id": 45,
+      "question": "What is the main function of the large intestine?",
+      "options": [
+        "Digest proteins",
+        "Absorb water",
+        "Produce insulin",
+        "Filter blood"
+      ],
+      "answer": "Absorb water"
+    },
+    {
+      "id": 46,
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "options": [
+        "0\u00b0F",
+        "32\u00b0F",
+        "100\u00b0F",
+        "212\u00b0F"
+      ],
+      "answer": "32\u00b0F"
+    },
+    {
+      "id": 47,
+      "question": "Which scientist is famous for the law of universal gravitation?",
+      "options": [
+        "Nikola Tesla",
+        "Isaac Newton",
+        "James Clerk Maxwell",
+        "Michael Faraday"
+      ],
+      "answer": "Isaac Newton"
+    },
+    {
+      "id": 48,
+      "question": "What is the smallest unit of a chemical element that retains its properties?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Ion",
+        "Compound"
+      ],
+      "answer": "Atom"
+    },
+    {
+      "id": 49,
+      "question": "Which part of the cell contains genetic material?",
+      "options": [
+        "Cytoplasm",
+        "Nucleus",
+        "Cell membrane",
+        "Vacuole"
+      ],
+      "answer": "Nucleus"
+    },
+    {
+      "id": 50,
+      "question": "What does 'binary' mean in computing?",
+      "options": [
+        "Base-8 system",
+        "Base-2 system",
+        "Base-10 system",
+        "Base-16 system"
+      ],
+      "answer": "Base-2 system"
+    },
+    {
+      "id": 51,
+      "question": "Which planet has the Great Red Spot?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "id": 52,
+      "question": "What does Wi\u2011Fi primarily use to transmit data?",
+      "options": [
+        "Radio waves",
+        "Light waves",
+        "Sound waves",
+        "Gamma rays"
+      ],
+      "answer": "Radio waves"
+    },
+    {
+      "id": 53,
+      "question": "Which metal is liquid at room temperature?",
+      "options": [
+        "Mercury",
+        "Aluminum",
+        "Sodium",
+        "Copper"
+      ],
+      "answer": "Mercury"
+    },
+    {
+      "id": 54,
+      "question": "What is the common unit for measuring frequency?",
+      "options": [
+        "Hertz",
+        "Pascal",
+        "Tesla",
+        "Candela"
+      ],
+      "answer": "Hertz"
+    },
+    {
+      "id": 55,
+      "question": "Which scientist is known for the periodic table?",
+      "options": [
+        "John Dalton",
+        "Dmitri Mendeleev",
+        "J.J. Thomson",
+        "Ernest Rutherford"
+      ],
+      "answer": "Dmitri Mendeleev"
+    },
+    {
+      "id": 56,
+      "question": "Which gas is responsible for the greenhouse effect the most by quantity?",
+      "options": [
+        "Carbon dioxide",
+        "Methane",
+        "Water vapor",
+        "Nitrous oxide"
+      ],
+      "answer": "Water vapor"
+    },
+    {
+      "id": 57,
+      "question": "Which organ filters blood to produce urine?",
+      "options": [
+        "Liver",
+        "Kidneys",
+        "Pancreas",
+        "Spleen"
+      ],
+      "answer": "Kidneys"
+    },
+    {
+      "id": 58,
+      "question": "What does 'URL' stand for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Unified Resource Link",
+        "Universal Routing Link",
+        "Uniform Reference Locator"
+      ],
+      "answer": "Uniform Resource Locator"
+    },
+    {
+      "id": 59,
+      "question": "Which particle is found in the nucleus and has no charge?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "Positron"
+      ],
+      "answer": "Neutron"
+    },
+    {
+      "id": 60,
+      "question": "Which layer of the Earth's atmosphere contains the ozone layer?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "answer": "Stratosphere"
+    },
+    {
+      "id": 61,
+      "question": "What is the primary function of the CPU cache?",
+      "options": [
+        "Store permanent files",
+        "Speed up access to frequently used data",
+        "Render graphics",
+        "Connect to the internet"
+      ],
+      "answer": "Speed up access to frequently used data"
+    },
+    {
+      "id": 62,
+      "question": "What does 'AI' stand for?",
+      "options": [
+        "Artificial Intelligence",
+        "Automated Interface",
+        "Applied Informatics",
+        "Augmented Internet"
+      ],
+      "answer": "Artificial Intelligence"
+    },
+    {
+      "id": 63,
+      "question": "Which element is the most abundant in the Earth's crust?",
+      "options": [
+        "Silicon",
+        "Oxygen",
+        "Aluminum",
+        "Iron"
+      ],
+      "answer": "Oxygen"
+    },
+    {
+      "id": 64,
+      "question": "Which organ produces insulin?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Gallbladder",
+        "Thyroid"
+      ],
+      "answer": "Pancreas"
+    },
+    {
+      "id": 65,
+      "question": "What is the main purpose of a firewall in networking?",
+      "options": [
+        "Store data",
+        "Block unauthorized access",
+        "Increase Wi\u2011Fi speed",
+        "Compress files"
+      ],
+      "answer": "Block unauthorized access"
+    },
+    {
+      "id": 66,
+      "question": "Which phenomenon causes the sky to appear blue?",
+      "options": [
+        "Rayleigh scattering",
+        "Doppler effect",
+        "Diffraction",
+        "Polarization"
+      ],
+      "answer": "Rayleigh scattering"
+    },
+    {
+      "id": 67,
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        "Gd",
+        "Au",
+        "Ag",
+        "Go"
+      ],
+      "answer": "Au"
+    },
+    {
+      "id": 68,
+      "question": "Which device is used to store electrical charge?",
+      "options": [
+        "Inductor",
+        "Capacitor",
+        "Resistor",
+        "Transformer"
+      ],
+      "answer": "Capacitor"
+    },
+    {
+      "id": 69,
+      "question": "Which planet is known for its prominent rings?",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": "Saturn"
+    },
+    {
+      "id": 70,
+      "question": "Which macronutrient is primarily used by the body for energy?",
+      "options": [
+        "Proteins",
+        "Carbohydrates",
+        "Vitamins",
+        "Minerals"
+      ],
+      "answer": "Carbohydrates"
+    },
+    {
+      "id": 71,
+      "question": "What does the 'H' stand for in pH?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Hydroxide",
+        "Heat"
+      ],
+      "answer": "Hydrogen"
+    },
+    {
+      "id": 72,
+      "question": "Which programming language is widely used for data science?",
+      "options": [
+        "Python",
+        "HTML",
+        "CSS",
+        "LaTeX"
+      ],
+      "answer": "Python"
+    },
+    {
+      "id": 73,
+      "question": "What is the unit of electric current?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": "Ampere"
+    },
+    {
+      "id": 74,
+      "question": "Which organ is primarily responsible for detoxification?",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Liver",
+        "Kidneys"
+      ],
+      "answer": "Liver"
+    },
+    {
+      "id": 75,
+      "question": "Which gas do humans need to breathe to survive?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "answer": "Oxygen"
+    },
+    {
+      "id": 76,
+      "question": "Who invented the telephone (first practical)?",
+      "options": [
+        "Alexander Graham Bell",
+        "Thomas Edison",
+        "Guglielmo Marconi",
+        "Nikola Tesla"
+      ],
+      "answer": "Alexander Graham Bell"
+    },
+    {
+      "id": 77,
+      "question": "What is the term for animals that maintain a constant body temperature?",
+      "options": [
+        "Poikilotherms",
+        "Ectotherms",
+        "Endotherms",
+        "Amphibians"
+      ],
+      "answer": "Endotherms"
+    },
+    {
+      "id": 78,
+      "question": "Which database language is used to query relational databases?",
+      "options": [
+        "NoSQL",
+        "GraphQL",
+        "SQL",
+        "XML"
+      ],
+      "answer": "SQL"
+    },
+    {
+      "id": 79,
+      "question": "What is the main constituent of natural gas?",
+      "options": [
+        "Propane",
+        "Butane",
+        "Methane",
+        "Ethane"
+      ],
+      "answer": "Methane"
+    },
+    {
+      "id": 80,
+      "question": "Which law states that current is proportional to voltage and inversely proportional to resistance?",
+      "options": [
+        "Ohm's Law",
+        "Faraday's Law",
+        "Boyle's Law",
+        "Hooke's Law"
+      ],
+      "answer": "Ohm's Law"
+    },
+    {
+      "id": 81,
+      "question": "Which organelle packages and transports proteins?",
+      "options": [
+        "Endoplasmic reticulum",
+        "Golgi apparatus",
+        "Ribosome",
+        "Lysosome"
+      ],
+      "answer": "Golgi apparatus"
+    },
+    {
+      "id": 82,
+      "question": "What is the main advantage of SSDs over HDDs?",
+      "options": [
+        "Cheaper per GB",
+        "Higher capacity",
+        "Faster access speeds",
+        "Louder operation"
+      ],
+      "answer": "Faster access speeds"
+    },
+    {
+      "id": 83,
+      "question": "Which process converts liquid to gas below boiling point?",
+      "options": [
+        "Boiling",
+        "Condensation",
+        "Evaporation",
+        "Sublimation"
+      ],
+      "answer": "Evaporation"
+    },
+    {
+      "id": 84,
+      "question": "Which country launched the first artificial satellite, Sputnik 1?",
+      "options": [
+        "USA",
+        "Soviet Union",
+        "China",
+        "France"
+      ],
+      "answer": "Soviet Union"
+    },
+    {
+      "id": 85,
+      "question": "What does 'https' add over 'http'?",
+      "options": [
+        "Speed",
+        "Security via encryption",
+        "More images",
+        "Compression"
+      ],
+      "answer": "Security via encryption"
+    },
+    {
+      "id": 86,
+      "question": "Which blood type is known as the universal donor for red cells?",
+      "options": [
+        "A+",
+        "B+",
+        "AB+",
+        "O-"
+      ],
+      "answer": "O-"
+    },
+    {
+      "id": 87,
+      "question": "What is the main function of the lungs?",
+      "options": [
+        "Filter blood",
+        "Exchange gases (O2/CO2)",
+        "Digest food",
+        "Produce bile"
+      ],
+      "answer": "Exchange gases (O2/CO2)"
+    },
+    {
+      "id": 88,
+      "question": "Which scientist formulated the laws of planetary motion?",
+      "options": [
+        "Tycho Brahe",
+        "Johannes Kepler",
+        "Galileo Galilei",
+        "Nicolaus Copernicus"
+      ],
+      "answer": "Johannes Kepler"
+    },
+    {
+      "id": 89,
+      "question": "What is the primary purpose of an operating system?",
+      "options": [
+        "Run internet",
+        "Manage hardware and software resources",
+        "Create documents",
+        "Protect from viruses"
+      ],
+      "answer": "Manage hardware and software resources"
+    },
+    {
+      "id": 90,
+      "question": "Which unit measures energy?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Volt"
+      ],
+      "answer": "Joule"
+    },
+    {
+      "id": 91,
+      "question": "What is the function of white blood cells?",
+      "options": [
+        "Carry oxygen",
+        "Fight infection",
+        "Clot blood",
+        "Store fat"
+      ],
+      "answer": "Fight infection"
+    },
+    {
+      "id": 92,
+      "question": "Which element is needed to make hemoglobin bind oxygen?",
+      "options": [
+        "Calcium",
+        "Potassium",
+        "Iron",
+        "Zinc"
+      ],
+      "answer": "Iron"
+    },
+    {
+      "id": 93,
+      "question": "What is a light-year a measure of?",
+      "options": [
+        "Time",
+        "Brightness",
+        "Distance",
+        "Speed"
+      ],
+      "answer": "Distance"
+    },
+    {
+      "id": 94,
+      "question": "Which programming paradigm does Java primarily follow?",
+      "options": [
+        "Functional",
+        "Procedural",
+        "Object-oriented",
+        "Declarative"
+      ],
+      "answer": "Object-oriented"
+    },
+    {
+      "id": 95,
+      "question": "Which planet has the highest average surface temperature?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "answer": "Venus"
+    },
+    {
+      "id": 96,
+      "question": "What is the most common element in the universe?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Oxygen",
+        "Carbon"
+      ],
+      "answer": "Hydrogen"
+    },
+    {
+      "id": 97,
+      "question": "Which law describes the inverse relationship between pressure and volume of a gas?",
+      "options": [
+        "Charles's Law",
+        "Boyle's Law",
+        "Avogadro's Law",
+        "Gay-Lussac's Law"
+      ],
+      "answer": "Boyle's Law"
+    },
+    {
+      "id": 98,
+      "question": "Which component of the computer stores the BIOS/firmware?",
+      "options": [
+        "RAM",
+        "ROM/Flash memory",
+        "GPU",
+        "Cache"
+      ],
+      "answer": "ROM/Flash memory"
+    },
+    {
+      "id": 99,
+      "question": "Which scientist discovered radioactivity in uranium salts (first observation)?",
+      "options": [
+        "Marie Curie",
+        "Henri Becquerel",
+        "Ernest Rutherford",
+        "Wilhelm R\u00f6ntgen"
+      ],
+      "answer": "Henri Becquerel"
+    },
+    {
+      "id": 100,
+      "question": "Which protocol is used to send emails?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "SSH"
+      ],
+      "answer": "SMTP"
+    }
+  ]
+}
