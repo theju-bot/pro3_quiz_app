@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './index.css';
 
-const Score = ({score}) => {
+const Score = ({ score, correct, incorrect }) => {
   return (
-    <div>Current Score: {String(score)}</div>
-  )
-}
+    <>
+      <div className="score">Current Score: {String(score)}</div>
+      <div className="correct">Correct Answers: {String(correct)}</div>
+      <div className="incorrect">Incorrect Answers: {String(incorrect)}</div>
+    </>
+  );
+};
 
-export default Score
+export default Score;

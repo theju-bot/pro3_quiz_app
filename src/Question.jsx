@@ -1,8 +1,11 @@
 import React from 'react';
+import './index.css';
 
-const Question = ({ randomNumnber, data }) => {
+const Question = ({ randomNumnber, data, class1 }) => {
   return (
-    <div>{data.map((item) => item.id === randomNumnber && item.question)}</div>
+    <div className={class1}>
+      {data.map((item) => item.id === randomNumnber && item.question)}
+    </div>
   );
 };
 
