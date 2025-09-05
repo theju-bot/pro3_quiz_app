@@ -1,11 +1,14 @@
 import { useEffect, useState, useRef } from 'react';
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate, useLocation } from 'react-router-dom';
 import Cards from './Cards';
 import Score from './Score';
 import './index.css';
 import Home from './Home';
 
 function App() {
+  const info = localStorage.getItem('info');
+  const details = JSON.parse(info) ?? null;
+
   const [data, setData] = useState([]);
   const [score, setScore] = useState(0);
   const [correct, setCorrect] = useState(0);
@@ -18,8 +21,23 @@ function App() {
   const [correctIndex, setCorrectIndex] = useState(null);
   const lastRef = useRef(randomNumnber);
   const [count, setCount] = useState(0);
+  const [allTimeScore, setAllTimeScore] = useState(
+    details ? details.allTimeScore : 0
+  );
+
+  const timerRef = useRef(null);
+
+  const navigate = useNavigate();
+  const location = useLocation();
 
   let nextRandom;
+
+  useEffect(() => {
+    localStorage.setItem(
+      'info',
+      JSON.stringify({ allTimeScore: allTimeScore ?? 0 })
+    );
+  }, [allTimeScore]);
 
   useEffect(() => {
     const getData = async () => {
@@ -30,10 +48,43 @@ function App() {
       console.log(getData.questions);
       setData(getData.questions);
     };
+    if (window.location.hash !== '#/') {
+      window.location.hash = '#/';
+    }
+
     getData();
   }, []);
 
+  useEffect(() => {
+    if (location.pathname === '/quiz') {
+      quizBegins();
+    }
+    return () => clearTimeout(timerRef.current);
+  }, [location.pathname, isRevealed]);
+
+  const quizBegins = () => {
+    clearTimeout(timerRef.current);
+
+    timerRef.current = setTimeout(() => {
+      if (isRevealed) return;
+      do {
+        nextRandom = Math.floor(Math.random() * 100 + 1);
+      } while (nextRandom === lastRef.current);
+      lastRef.current = nextRandom;
+      setRandomNumnber(nextRandom);
+      setScore((prev) => Math.max(0, prev - 1));
+      setIncorrect((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+    }, 60000);
+  };
+
+  const quizFinsished = () => {
+    navigate('/results');
+    setAllTimeScore(score);
+  };
+
   const checkAnswer = (rN, n) => {
+    if (count === 10) return quizFinsished();
     if (isRevealed) return;
     const item = data.find((item) => item.id === rN);
     const cIndex = item.options.findIndex((a) => a === item.answer);
@@ -75,14 +126,24 @@ function App() {
               selectedIndex={selectedIndex}
               correctIndex={correctIndex}
             />
-            <Score score={score} correct={correct} incorrect={incorrect} />
+            <div className="fra">
+              <div className="score1">Current Score: {String(score)}</div>
+              <div className="correct1">
+                All time Score: {String(allTimeScore)}
+              </div>
+            </div>
           </>
         }
       />
       <Route
         path="/results"
         element={
-          <Score score={score} correct={correct} incorrect={incorrect} />
+          <Score
+            score={score}
+            correct={correct}
+            incorrect={incorrect}
+            allTimeScore={allTimeScore}
+          />
         }
       />
     </Routes>
