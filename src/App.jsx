@@ -26,7 +26,6 @@ function App() {
   );
   const [seconds, setSeconds] = useState(60);
 
-  const timerRef = useRef(null);
   const intervalRef = useRef(null);
 
   const navigate = useNavigate();
@@ -73,7 +72,6 @@ function App() {
       quizBegins();
     }
     return () => {
-      clearTimeout(timerRef.current);
       clearTimeout(intervalRef.current);
     };
   }, [location.pathname]);
