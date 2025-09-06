@@ -24,8 +24,10 @@ function App() {
   const [allTimeScore, setAllTimeScore] = useState(
     details ? details.allTimeScore : 0
   );
+  const [seconds, setSeconds] = useState(60);
 
   const timerRef = useRef(null);
+  const intervalRef = useRef(null);
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -56,26 +58,45 @@ function App() {
   }, []);
 
   useEffect(() => {
+    if (count === 10) {
+      quizFinsished();
+    }
+  }, [count]);
+
+  useEffect(() => {
     if (location.pathname === '/quiz') {
+      setScore(0);
+      setCorrect(0);
+      setIncorrect(0);
+      setSeconds(60);
+      setCount(0);
       quizBegins();
     }
-    return () => clearTimeout(timerRef.current);
-  }, [location.pathname, isRevealed]);
+    return () => {
+      clearTimeout(timerRef.current);
+      clearTimeout(intervalRef.current);
+    };
+  }, [location.pathname]);
 
   const quizBegins = () => {
-    clearTimeout(timerRef.current);
+    clearInterval(intervalRef.current);
 
-    timerRef.current = setTimeout(() => {
-      if (isRevealed) return;
-      do {
-        nextRandom = Math.floor(Math.random() * 100 + 1);
-      } while (nextRandom === lastRef.current);
-      lastRef.current = nextRandom;
-      setRandomNumnber(nextRandom);
-      setScore((prev) => Math.max(0, prev - 1));
-      setIncorrect((prev) => prev + 1);
-      setCount((prev) => prev + 1);
-    }, 60000);
+    intervalRef.current = setInterval(() => {
+      setSeconds((prev) => {
+        if (prev <= 1) {
+          do {
+            nextRandom = Math.floor(Math.random() * 100 + 1);
+          } while (nextRandom === lastRef.current);
+          lastRef.current = nextRandom;
+          setRandomNumnber(nextRandom);
+          setScore((prevScore) => Math.max(0, prevScore - 1));
+          setIncorrect((prev) => prev + 1);
+          setCount((prev) => prev + 1);
+          return 60;
+        }
+        return prev - 1;
+      });
+    }, 1000);
   };
 
   const quizFinsished = () => {
@@ -84,7 +105,6 @@ function App() {
   };
 
   const checkAnswer = (rN, n) => {
-    if (count === 10) return quizFinsished();
     if (isRevealed) return;
     const item = data.find((item) => item.id === rN);
     const cIndex = item.options.findIndex((a) => a === item.answer);
@@ -103,6 +123,7 @@ function App() {
       } while (nextRandom === lastRef.current);
       lastRef.current = nextRandom;
       setRandomNumnber(nextRandom);
+      setSeconds(60);
       setIsRevealed(false);
       setSelectedIndex(null);
       setCorrectIndex(null);
@@ -128,6 +149,7 @@ function App() {
             />
             <div className="fra">
               <div className="score1">Current Score: {String(score)}</div>
+              <div className="seconds">Seconds Left: {String(seconds)}</div>
               <div className="correct1">
                 All time Score: {String(allTimeScore)}
               </div>

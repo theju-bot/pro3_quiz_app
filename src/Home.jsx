@@ -9,12 +9,13 @@ const Home = () => {
         <li>For every correct answer you will get 1 point</li>
         <li>For every incorrect answer you will lose 1 point</li>
         <li>
-          You have 60 seconds to answer the question, if you fail to answe
+          You have 60 seconds to answer the question, if you fail to answer
           within 60 seconds you will lose 1 point{' '}
         </li>
       </ul>
       <div className="link">
-        <Link to="/quiz">Start the Quiz</Link>
+        <Link to="/quiz"className='link1'>Start the Quiz</Link>
+        <Link to="/results" className='link2'>All Time Score</Link>
       </div>
     </div>
   );
