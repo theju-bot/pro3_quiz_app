@@ -70,6 +70,9 @@ function App() {
       setSeconds(60);
       setCount(0);
       quizBegins();
+      setIsRevealed(false);
+      setSelectedIndex(null);
+      setCorrectIndex(null);
     }
     return () => {
       clearTimeout(intervalRef.current);
@@ -90,6 +93,9 @@ function App() {
           setScore((prevScore) => Math.max(0, prevScore - 1));
           setIncorrect((prev) => prev + 1);
           setCount((prev) => prev + 1);
+          setIsRevealed(false);
+          setSelectedIndex(null);
+          setCorrectIndex(null);
           return 60;
         }
         return prev - 1;
